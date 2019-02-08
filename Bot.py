@@ -1,7 +1,6 @@
 from pynput.mouse import Button, Controller as MouseController
 from time import sleep
 mouse = MouseController()
-# mouse.position = (1338, 158)
 def scroll(f):
     mouse.position = (1227, f)
     mouse.press(Button.left)
